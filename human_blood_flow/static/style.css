@@ -1,0 +1,136 @@
+h1, #head input, h2 {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: normal;
+    clear: both;
+    padding: 0 5px;
+}
+
+h2 {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #d2738a;
+}
+
+.article {
+    text-align: left;
+    height: auto;
+}
+
+.block {
+    width: 70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 6px;
+    font-size: 13px;
+    padding: 20px 0;
+}
+
+
+.blacked {
+    box-shadow: black 0px 5px 10px;
+    background-color: black;
+}
+
+#head {
+    margin-top: 40px;
+    min-height: 30px
+}
+
+#bottom {
+    margin-bottom: 40px;
+}
+
+#head > a {
+    letter-spacing: 0;
+}
+
+.gif-article {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#gf1 {
+    background-image: url(img/gf1.gif);
+    width: 305px;
+    height: 354px;
+    margin-top: 10%;
+}
+
+body {
+    background-image: url(img/bg.gif);
+    color: #c1b492;
+    word-wrap: break-word;
+}
+
+.repo {
+    float: left;
+    width: 180px;
+    height: 230px;
+    font-size: 18px;
+    margin: 0 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.repo > .link {
+    margin: 20px 0;
+    padding: 0 8px;
+}
+
+.repo > .details {
+    padding: 0 8px;
+    padding-top: 40%;
+}
+
+#projects {
+    letter-spacing: 2px;
+}
+
+.text-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+div[id$="-block"] {
+    width: 33%;
+    min-height: 450px;
+    height: 50%;
+    visibility: hidden;
+}
+
+#left-block {
+    float: left;
+}
+
+#right-block {
+    float: right;
+}
+
+#msg {
+    display: inline-block; margin-left: 40px;
+}
+
+#head input {
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    height: 24px;
+}

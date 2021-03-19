@@ -1,0 +1,61 @@
+{% load static %}
+<html>
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>SunnyCapt | github</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+    <script>
+        let humanEndPoint = "{% url 'human-list' %}";
+    </script>
+</head>
+<body onload="onLoad()">
+<!-- thanks fauux.neocities.org for the page style -->
+<!-- first usage here: SunnyCapt.github.io -->
+<div class="article blacked block" id="head">
+    <h1 id="msg">&nbsp;</h1>
+    <input
+            onkeypress="onKeyPress(this)" type="text" name="person_name"
+            placeholder="person name" title="person_name"
+    >
+</div>
+<div class="clearfix block" id="projects">
+    <div id="left-block" class="article blacked block">
+        <div class="text-block" style="height: 33%">
+            <h2>Organism status:</h2>
+            <h2 id="organism-status"></h2>
+        </div>
+        <hr>
+        <div class="text-block" style="height: 33%">
+            <h2>Person activity:</h2>
+            <h2 id="person-activity"></h2>
+        </div>
+        <hr>
+        <div class="text-block" style="height: 33%">
+            <h2>Blood substances:</h2>
+            <h2 id="blood-substances"></h2>
+        </div>
+    </div>
+    <!--suppress CssInvalidPropertyValue -->
+    <div style="float: inline-start;margin-top: 10%;width: 34%;">
+        <div class="gif-article" id="gf1"></div>
+    </div>
+    <div id="right-block" class="article blacked block">
+        <div class="text-block" style="height: 33%">
+            <h2>Wealth:</h2>
+            <h2 id="wealth"></h2>
+        </div>
+        <hr>
+        <div class="text-block" style="height: 33%">
+            <h2>Role:</h2>
+            <h2 id="role"></h2>
+        </div>
+        <hr>
+        <div class="text-block" style="height: 33%">
+            <h2>Stats:</h2>
+            <h2 id="stats"></h2>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+venv
+.idea
+*__pycache__
+trash
+kursach/local_settings.py
